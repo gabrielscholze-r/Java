@@ -5,7 +5,7 @@
 
 O objetivo geral do trabalho consiste em desenvolver um analisador de contatos a partir da base de e-mails de benchmark conhecida como Enron Email Dataset. Essa base de e-mails é pública e está disponível em https://www.cs.cmu.edu/~./enron/ . Nesse projeto procura-se mostrar uma aplicação prática da teoria dos grafos que permite extrair informações úteis a partir da rede de contatos gerada com os e-mails da base.
  
-# Requisitos e Funcionalidades do Analisador
+### Requisitos e Funcionalidades do Analisador:
 ## A partir das mensagens de e-mail da base, gere um grafo direcionado considerando o remetente e o(s) destinatários de cada mensagem. Vc deve escolher entre as mensagens do diretorio "sent" ou "sent_mail". O grafo deve ser ponderado, considerando a frequência com que um remetente envia uma mensagem para um destinatário e rotulado, considerando como rótulo o e-mail de cada usuário.
 ### Implemente métodos/funções para extrair as seguintes informações gerais:
       -O n. de vértices do grafo
